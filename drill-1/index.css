@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.bars {
+     display: flex;
+    position: relative;
+    
+}
+.side-bars {
+    position: relative;
+    height: 100vw;
+    width: 100px;
+    background-color: lightgray;
+    z-index: 2;
+}
+#right {
+    position: relative;
+    right: 0px;
+
+}
+#left {
+    position:relative;
+    left: 1075px;
+    right: 0
+}
+#bottom-banner {
+    position: absolute;
+    height: 50px;
+    width: 100vw;
+    bottom: 0px;
+    /* top: ; */
+    background-color: black;
+    z-index: 1;
+
+}
+
+
+#top-banner {
+    position: absolute;
+    height: 150px;
+    width: 100vw;
+    top: 0px;
+    background-color: #464545;
+    z-index: 3;
+
+}
