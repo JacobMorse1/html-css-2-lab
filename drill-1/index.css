@@ -16,17 +16,20 @@ body {
     z-index: 2;
 }
 #right {
-    position: relative;
+    position: fixed;
     right: 0px;
+    bottom: 0px;
+    top: 0px;
 
 }
 #left {
-    position:relative;
-    left: 1075px;
-    right: 0
+    position:fixed;
+    left: 0px;
+    bottom: 0px;
+    top: 0px;
 }
 #bottom-banner {
-    position: absolute;
+    position: fixed;
     height: 50px;
     width: 100vw;
     bottom: 0px;
@@ -38,7 +41,7 @@ body {
 
 
 #top-banner {
-    position: absolute;
+    position: fixed;
     height: 150px;
     width: 100vw;
     top: 0px;
